@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "bichburger",
+  "version": "${version}",
+
+  "name": "Bichburger",
+  "description": "бургеры и не только | burgers and more",
+  "authors": [
+    "Mirik9724"
+  ],
+  "contact": {
+    "homepage": "https://curseforge.com/minecraft/mc-mods/bichburger/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "License from Mirik9724",
+  "icon": "assets/bichburger/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.Mirik9724.bichburger.Bichburger"
+    ],
+    "client": [
+      "net.Mirik9724.bichburger.BichburgerClient"
+    ]
+  },
+  "mixins": [
+    "bichburger.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.17",
+    "fabric-api": "*",
+    "minecraft": ">=1.14",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

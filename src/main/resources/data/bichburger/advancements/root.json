@@ -1,0 +1,28 @@
+{
+    "__comment": "Made with TheDestruc7i0n's advancements generator: https://advancements.thedestruc7i0n.ca",
+    "display": {
+        "title": {
+            "text": " Download mod",
+            "bold": false,
+            "italic": false,
+            "underlined": true,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "thank you"
+        },
+        "icon": {
+            "item": "minecraft:dragon_breath"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {},
+    "rewards": {
+        "experience": 77
+    }
+}
