@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "PP"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potato"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "item": "bichburger:french_fries",
+        "count": 1},
+    "group": "french_fries"
+}
