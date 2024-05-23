@@ -1,4 +1,4 @@
-1 it is forbidden to distribute the project without the consent of the owner (currently Mirik9724).
+1 It is forbidden to distribute the project without the consent of the owner (currently Mirik9724).
 
 2 All rights reserved.
 
