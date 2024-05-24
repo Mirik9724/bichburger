@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:wheat"
+        },
+        "C": {
+            "item": "minecraft:coal"
+        }
+    },
+    "result": {
+        "item": "bichburger:black_burger_bun",
+        "count": 1},
+    "group": "black_burger_bun"
+}

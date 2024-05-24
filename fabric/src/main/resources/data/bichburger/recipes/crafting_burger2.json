@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "C",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "bichburger:burger_bun"
+        },
+        "C": {
+            "item": "minecraft:cooked_porkchop"
+        }
+    },
+    "result": {
+        "item": "bichburger:burger",
+        "count": 1},
+    "group": "burger"
+}
