@@ -10,7 +10,9 @@
   ],
   "contact": {
     "homepage": "https://curseforge.com/minecraft/mc-mods/bichburger/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/FabricMC/fabric-example-mod",
+    "issues": "https://legacy.curseforge.com/minecraft/mc-mods/bichburger/issues",
+    "contributors": "OxeganSE"
   },
 
   "license": "License from Mirik9724",

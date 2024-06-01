@@ -30,19 +30,19 @@ public class BichburgerItems {
             .food(new FoodComponent.Builder().hunger(6).alwaysEdible().build())), BichburgerItemsGroup.bichburger_group);
     public static final Item Black_Burger = regisetItem("black_burger", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(6).alwaysEdible().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item french_fries = regisetItem("french_fries", new Item(new FabricItemSettings().maxCount(64)
+    public static final Item French_fries = regisetItem("french_fries", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(5).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item bich_nagens = regisetItem("bich_nagens", new Item(new FabricItemSettings().maxCount(64)
+    public static final Item Bich_nagens = regisetItem("bich_nagens", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(4).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item bich_cola = regisetItem("bich_cola", new Item(new FabricItemSettings().maxCount(1)
+    public static final Item Bich_cola = regisetItem("bich_cola", new Item(new FabricItemSettings().maxCount(16)
             .food(new FoodComponent.Builder().hunger(3).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item bich_lemonade = regisetItem("bich_lemonade", new Item(new FabricItemSettings().maxCount(1)
+    public static final Item Bich_lemonade = regisetItem("bich_lemonade", new Item(new FabricItemSettings().maxCount(16)
             .food(new FoodComponent.Builder().hunger(3).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item beer_shrimp = regisetItem("beer_shrimp", new Item(new FabricItemSettings().maxCount(1)
+    public static final Item Beer_shrimp = regisetItem("beer_shrimp", new Item(new FabricItemSettings().maxCount(16)
             .food(new FoodComponent.Builder().hunger(3).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item burger_bun = regisetItem("burger_bun", new Item(new FabricItemSettings().maxCount(64)
+    public static final Item Burger_bun = regisetItem("burger_bun", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(1).meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item black_burger_bun = regisetItem("black_burger_bun", new Item(new FabricItemSettings().maxCount(64)
+    public static final Item Black_burger_bun = regisetItem("black_burger_bun", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(1).meat().build())), BichburgerItemsGroup.bichburger_group);
     private static Item regisetItem(String id, Item item) { return Registry.register(Registries.ITEM, new Identifier(Bichburger.MOD_ID, id), item);}
     private static Item regisetItem(String id, Item item, ItemGroup itemGroup) {
