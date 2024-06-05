@@ -3,9 +3,9 @@
   "item.bichburger.black_burger": "Бич чёрный бургер",
   "item.bichburger.french_fries": "Бич Картошка фри",
   "item.bichburger.bich_nagens": "Бич Нагенс",
-  "item.bichburger.bich_lemonade": "Бич Лимонад",
-  "item.bichburger.bich_cola": "Бич Кола",
-  "item.bichburger.beer_shrimp": "Пиво креветка",
+  "item.bichburger.bich_lemonade.effect.empty": "Бич Лимонад",
+  "item.bichburger.bich_cola.effect.empty": "Бич Кола",
+  "item.bichburger.beer_shrimp.effect.empty": "Пиво креветка",
   "item.bichburger.burger_bun": "Булочка от бургера",
   "item.bichburger.black_burger_bun": "Булочка от чёрного бургера",
   "itemGroup.bichburger.bichburger_group": "Бичбургер"

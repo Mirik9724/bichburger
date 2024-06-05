@@ -34,17 +34,19 @@ public class BichburgerItems {
             .food(new FoodComponent.Builder().hunger(5).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
     public static final Item Bich_nagens = regisetItem("bich_nagens", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(4).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item Bich_cola = regisetItem("bich_cola", new Item(new FabricItemSettings().maxCount(16)
+    public static final Item Bich_cola = regisetItem("bich_cola", new BichburgerItemsEffects(new FabricItemSettings().maxCount(16)
             .food(new FoodComponent.Builder().hunger(3).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item Bich_lemonade = regisetItem("bich_lemonade", new Item(new FabricItemSettings().maxCount(16)
+    public static final Item Bich_lemonade = regisetItem("bich_lemonade", new BichburgerItemsEffects(new FabricItemSettings().maxCount(16)
             .food(new FoodComponent.Builder().hunger(3).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
-    public static final Item Beer_shrimp = regisetItem("beer_shrimp", new Item(new FabricItemSettings().maxCount(16)
+    public static final Item Beer_shrimp = regisetItem("beer_shrimp", new BichburgerItemsEffects(new FabricItemSettings().maxCount(16)
             .food(new FoodComponent.Builder().hunger(3).alwaysEdible().meat().build())), BichburgerItemsGroup.bichburger_group);
     public static final Item Burger_bun = regisetItem("burger_bun", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(1).meat().build())), BichburgerItemsGroup.bichburger_group);
     public static final Item Black_burger_bun = regisetItem("black_burger_bun", new Item(new FabricItemSettings().maxCount(64)
             .food(new FoodComponent.Builder().hunger(1).meat().build())), BichburgerItemsGroup.bichburger_group);
+    public static final Item YOUR_ITEM = regisetItem("id",new BichburgerItemsEffects(new Item.Settings()));
     private static Item regisetItem(String id, Item item) { return Registry.register(Registries.ITEM, new Identifier(Bichburger.MOD_ID, id), item);}
+
     private static Item regisetItem(String id, Item item, ItemGroup itemGroup) {
         Item returnItem = Registry.register(Registries.ITEM, new Identifier(Bichburger.MOD_ID, id), item);
         ItemGroupEvents.modifyEntriesEvent(itemGroup).register(entries -> entries.add(returnItem));
