@@ -4,6 +4,8 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 
+import java.util.Properties;
+
 public class BichburgerItemFood {
     public static final FoodProperties Burger = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.3F).build();
     public static final FoodProperties Black_Burger = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.3F).build();
